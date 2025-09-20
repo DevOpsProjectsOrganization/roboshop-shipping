@@ -9,3 +9,4 @@ jobs:
     uses: DevOpsProjectsOrganization/roboshop-github-actions/.github/workflows/ci-main.yml@main
     with :
       app_type : java
+      app_name : shipping
