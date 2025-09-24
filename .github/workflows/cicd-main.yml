@@ -10,3 +10,5 @@ jobs:
     with :
       app_type : java
       app_name : shipping
+      app_env : dev
+      enabled : true
