@@ -1,0 +1,13 @@
+name : dev Deploy
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  reusable_workflow:
+    uses: DevOpsProjectsOrganization/roboshop-github-actions/.github/workflows/deploy.yml@main
+    with : 
+      app_name : shipping
+      app_env : dev
+      enabled : true
