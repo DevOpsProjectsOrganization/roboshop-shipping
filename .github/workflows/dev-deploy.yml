@@ -11,3 +11,4 @@ jobs:
       app_name : shipping
       app_env : dev
       enabled : true
+      ingress : false
